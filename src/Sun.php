@@ -68,9 +68,8 @@ class Sun
         return Carbon::createFromTimestamp($sunsetTimestamp);
     }
     
-    public function e($foo){
-    
+    public function e($foo)
+    {
         return $foo;
-    
     }
 }
