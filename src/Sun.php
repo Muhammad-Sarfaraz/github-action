@@ -61,7 +61,9 @@ class Sun
         $sunsetTimestamp = date_sunset(
             (int)$onDay->timestamp,
             SUNFUNCS_RET_TIMESTAMP,
+            
             $this->lat,
+
             $this->lng
         );
 
