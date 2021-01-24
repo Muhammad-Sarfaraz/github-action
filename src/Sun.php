@@ -70,6 +70,15 @@ class Sun
     
     public function e($foo)
     {
-        return $foo;
+        $checkout = is_array($foo);
+
+        return $checkout;
+    }
+
+    public function f($foo)
+    {
+        $checkout = is_array($foo);
+
+        return $checkout;
     }
 }
